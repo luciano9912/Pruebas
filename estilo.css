@@ -276,7 +276,7 @@ html{
 /* SECCION CONTACTO */
 .contacto{
     background-color: #202020;
-    padding: 140px 0 100px 0;
+    padding: 50px 0 5px 0;
     color: #e6e6e6;
     text-align: center;
 }
@@ -299,6 +299,31 @@ html{
 .contacto .contenido-seccion .fila .col h2{
     color: #940253;
 }
+/* Codigo QR */
+.qr-code{
+    border-radius: 10%;
+    width: 50%;
+    height: auto;
+    box-shadow: 1px 1px 8px 4px #940253;
+}
+/* footer informacion */
+.info-footer{
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     justify-content: end;
+}
+/* Creador */
+#creador{
+    color: #666;
+    font-family: "Yellowtail";
+    font-size: 1.3rem;
+}
+
+
+
 /* SECCION RESPONSIVE */
 @media screen and (max-width:800px){
     .habilidades .contenido-seccion .fila{
@@ -336,5 +361,9 @@ html{
     }
     .contacto .contenido-seccion .fila{
         display: block;
+    }
+    #creador{
+        display: block;
+        font-size: 1rem;
     }
 }
