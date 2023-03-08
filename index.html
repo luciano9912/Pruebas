@@ -3,10 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Biblioteca-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Favicon-->
+    <link rel="icon" type="image/gif" href="img/favicon.ico">
+    <!-- Hoja de estilo-->
     <link rel="stylesheet" href="estilo.css">
-    <title>CV LUCIANO RIVEROS</title>
+    <!-- titulo-->
+    <title>Curriculum Vitae Luciano Riveros</title>
+    <!-- Open Graph-->
+    <meta name="description" content="¡Saludos! Me llamo Luciano Riveros y te comparto mí CV" />
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" value="summary">
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Curriculum Vitae Luciano Riveros" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://luciano9912.github.io/CV-Luciano-Riveros/" />
+    <meta property="og:image" content="img/og_img.png"/>
+    <meta property="og:description" content="¡Saludos! Me llamo Luciano Riveros y comparto mí CV" />
+    
 </head>
 <body>
     <!-- SECCION INICIO -->
@@ -38,7 +54,7 @@
                 </div>
             </div>
             <div class="foto">
-                <img src="img/foto.png" alt="">
+                <img src="img/foto.jpg" alt="Foto del creadr del CV">
             </div>
         </div>
     </section>
@@ -46,6 +62,7 @@
     <!-- SECCION SOBRE MI -->
     <section class="sobremi" id="sobremi">
         <div class="contenido-seccion">
+            <p><b><u>* ¡Atención! :</u></b>La mayoría de los datos colocados aquí no son reales, algunos que si son reales son ; Nombre completo, habilidades, prearación, foto y correo electronico.</p>
             <h2 class="titulo-seccion">Sobre Mi</h2>
             <h3>Detalles personales</h3>
 
@@ -237,27 +254,35 @@
 
             <div class="fila">
                 <div class="col">
-                    <h2>
-                        <i class="fa-solid fa-phone"></i> Teléfono
-                    </h2>
-                    <span class="info-contacto">11 - 32123344</span>
+                    <div class="info-footer">
+                        <h2>
+                            <i class="fa-solid fa-envelope"></i> Email
+                        </h2>
+                        <span class="info-contacto">riveroslucianomartin@gmail.com</span>
+                    </div>
                 </div>
                 <div class="col">
-                    <h2>
-                        <i class="fa-solid fa-envelope"></i> Correo
-                    </h2>
-                    <span class="info-contacto">riveroslucianomartin@gmail.com</span>
+                    <img class="qr-code" src="img/qrcode.png" alt="Código QR de esta Página web"><br>
+                    <span class="info-contacto">Escaneá el código QR para ver en otro dispositivo</span>
                 </div>
                 <div class="col">
-                    <h2>
-                        <i class="fa-solid fa-globe"></i> Página Web
-                    </h2>
-                    <span class="info-contacto">Proximamente</span>
+                    <div class="info-footer">
+                        <h2>
+                            <i class="fa-solid fa-phone"></i> Teléfono
+                        </h2>
+                        <span class="info-contacto">11 - 321233447 ( No real )</span>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <span id="creador">3/2023 - Luciano Martin Riveros</span>
                 </div>
             </div>
         </div>
+        
     </footer>
-
+<!-- Javascript -->
     <script src="app.js"></script>
 </body>
 </html>
